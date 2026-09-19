@@ -1,245 +1,239 @@
 <!DOCTYPE html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Website pribadi Kingnolimit — portofolio, keahlian, proyek, dan kontak."
-    />
-    <title>Kingnolimit | Website Pribadi</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container nav-wrap">
-        <a href="#home" class="brand" aria-label="Beranda">
-          <span class="brand-mark">K</span>
-          <span>Kingnolimit</span>
-        </a>
-
-        <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-
-        <nav class="site-nav" aria-label="Navigasi utama">
-          <a href="#about">Tentang</a>
-          <a href="#skills">Keahlian</a>
-          <a href="#projects">Proyek</a>
-          <a href="#contact">Kontak</a>
-        </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio pribadi Melvern Valentino Chandra — Business & Technology Enthusiast." />
+  <title>Melvern Valentino Chandra | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="logo">MVC<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Ubah tema">☾</button>
       </div>
-    </header>
+    </nav>
+  </header>
 
-    <main id="home">
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Halo, saya</p>
-            <h1>Kingnolimit</h1>
-            <p class="lead">
-              Saya adalah pengembang web yang fokus pada pengalaman digital yang
-              cepat, modern, dan mudah digunakan.
-            </p>
-
-            <div class="cta-row">
-              <a class="btn btn-primary" href="#projects">Lihat Proyek</a>
-              <a class="btn btn-secondary" href="#contact">Hubungi Saya</a>
-            </div>
-
-            <ul class="mini-stats" aria-label="Statistik utama">
-              <li>
-                <strong>2+</strong>
-                <span>Tahun belajar</span>
-              </li>
-              <li>
-                <strong>8+</strong>
-                <span>Proyek dibuat</span>
-              </li>
-              <li>
-                <strong>100%</strong>
-                <span>Semangat belajar</span>
-              </li>
-            </ul>
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">BUSINESS × TECHNOLOGY × FUTURE</p>
+          <h1>Hi, I'm <span>Melvern Valentino Chandra</span></h1>
+          <h2>Business &amp; Technology Enthusiast</h2>
+          <p class="hero-text">A curious learner with a strong interest in business, technology, coding, digital transformation, and communication. I enjoy learning, solving problems, and turning ideas into meaningful projects.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#achievements">View My Achievements</a>
+            <a class="btn secondary" href="#contact">Let's Connect</a>
           </div>
-
-          <div class="hero-card" aria-label="Profil singkat">
-            <div class="avatar-ring">
-              <div class="avatar">K</div>
-            </div>
-            <div class="card-content">
-              <span class="badge">Available for work</span>
-              <h2>Frontend & UI Enthusiast</h2>
-              <p>
-                Membuat antarmuka yang menarik, responsif, dan berfokus pada
-                kebutuhan pengguna.
-              </p>
-            </div>
+          <div class="quick-stats">
+            <div><strong>2026</strong><span>High School Graduate</span></div>
+            <div><strong>8+</strong><span>Technical &amp; Office Skills</span></div>
+            <div><strong>3</strong><span>Campus Experiences</span></div>
           </div>
         </div>
-      </section>
-
-      <section id="about" class="section">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Tentang saya</p>
-            <h2>Memberi solusi sederhana lewat teknologi</h2>
-          </div>
-
-          <div class="about-grid">
-            <div class="about-copy">
-              <p>
-                Saya menyukai dunia teknologi, terutama dalam pengembangan web,
-                desain antarmuka, dan optimasi pengalaman pengguna. Saya percaya
-                bahwa website yang baik tidak hanya indah, tetapi juga cepat,
-                jelas, dan mudah dipahami.
-              </p>
-              <p>
-                Saat ini, saya aktif belajar dan membangun proyek yang menggabungkan
-                kreativitas, logika, dan performa agar hasilnya lebih maksimal.
-              </p>
-            </div>
-
-            <div class="info-panel">
-              <div>
-                <span class="label">Lokasi</span>
-                <strong>Indonesia</strong>
-              </div>
-              <div>
-                <span class="label">Status</span>
-                <strong>Mahasiswa / Freelancer</strong>
-              </div>
-              <div>
-                <span class="label">Minat</span>
-                <strong>Web, UI/UX, Produktivitas</strong>
-              </div>
-            </div>
+        <div class="hero-card reveal delay-1">
+          <div class="profile-orbit orbit-one"></div>
+          <div class="profile-orbit orbit-two"></div>
+          <div class="profile-card">
+            <div class="initials">MVC</div>
+            <p>Melvern Valentino Chandra</p>
+            <span>Student • Learner • Creator</span>
           </div>
         </div>
-      </section>
-
-      <section id="skills" class="section section-alt">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Keahlian</p>
-            <h2>Tools dan teknologi yang saya gunakan</h2>
-          </div>
-
-          <div class="skills-grid">
-            <div class="skill-card">
-              <h3>Frontend</h3>
-              <div class="tag-list">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-                <span>React</span>
-              </div>
-            </div>
-            <div class="skill-card">
-              <h3>Styling</h3>
-              <div class="tag-list">
-                <span>Tailwind</span>
-                <span>Bootstrap</span>
-                <span>SCSS</span>
-              </div>
-            </div>
-            <div class="skill-card">
-              <h3>Tools</h3>
-              <div class="tag-list">
-                <span>Git</span>
-                <span>GitHub</span>
-                <span>VS Code</span>
-                <span>Figma</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="projects" class="section">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Proyek</p>
-            <h2>Beberapa karya yang pernah saya buat</h2>
-          </div>
-
-          <div class="project-grid">
-            <article class="project-card">
-              <div class="project-visual gradient-one"></div>
-              <div class="project-body">
-                <h3>Landing Page Bisnis</h3>
-                <p>
-                  Desain landing page modern untuk bisnis dengan struktur konten
-                  yang jelas dan fokus call-to-action.
-                </p>
-                <div class="project-meta">
-                  <span>HTML</span>
-                  <span>CSS</span>
-                  <span>JS</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-visual gradient-two"></div>
-              <div class="project-body">
-                <h3>Portofolio Pribadi</h3>
-                <p>
-                  Website portofolio yang menampilkan profil, keahlian, dan proyek
-                  dengan tampilan yang profesional.
-                </p>
-                <div class="project-meta">
-                  <span>React</span>
-                  <span>CSS</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-visual gradient-three"></div>
-              <div class="project-body">
-                <h3>Dashboard Sederhana</h3>
-                <p>
-                  Antarmuka dashboard ringan untuk menampilkan data penting dengan
-                  tata letak yang rapi dan responsif.
-                </p>
-                <div class="project-meta">
-                  <span>JavaScript</span>
-                  <span>API</span>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="section cta-section">
-        <div class="container cta-box">
-          <div>
-            <p class="eyebrow">Kontak</p>
-            <h2>Ayo mulai kolaborasi</h2>
-          </div>
-          <a class="btn btn-primary" href="mailto:your.email@example.com">
-            Email Saya
-          </a>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-wrap">
-        <p>© <span id="year"></span> Kingnolimit. All rights reserved.</p>
       </div>
-    </footer>
+    </section>
 
-    <script src="script.js"></script>
-  </body>
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>Building a future at the intersection of <span>business and technology.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>I am a student who enjoys exploring how technology can support business, education, and society. My interests have grown through academic competitions, coding activities, organizational experiences, and projects related to digital transformation.</p>
+            <p>My long-term vision is to gain experience in an international company, learn from global business and technology environments, and eventually bring that knowledge back to Indonesia to contribute to its development.</p>
+          </div>
+          <div class="about-info reveal delay-1">
+            <div class="info-item"><span>Education</span><strong>High School Graduate</strong><small>Graduated 2026</small></div>
+            <div class="info-item"><span>Focus</span><strong>Business &amp; Technology</strong><small>Digital transformation &amp; coding</small></div>
+            <div class="info-item"><span>Location</span><strong>Indonesia</strong><small>Open to global opportunities</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">EXPERIENCE</p>
+          <h2>Experiences that shaped <span>my skills.</span></h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="tag">Campus Organization</span>
+              <h3>Event Organizer Marketing</h3>
+              <p>Active in campus event activities with a focus on marketing, coordination, teamwork, and supporting event execution.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="tag">Communication</span>
+              <h3>Campus Tour Guide</h3>
+              <p>Served as a campus tour guide for high school students visiting campus, developing communication, presentation, and interpersonal skills.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="tag">Competition</span>
+              <h3>Coding Competition</h3>
+              <p>Participated in a coding competition organized by Universitas Ma Chung in Malang, strengthening problem-solving and programming experience.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="tag">Academic</span>
+              <h3>Physics Olympiad</h3>
+              <p>Participated in a physics olympiad during high school as part of my academic development and competitive learning experience.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="tag">English</span>
+              <h3>English Competition</h3>
+              <p>Participated in an English competition organized by EF Malang, building confidence in language and communication.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="achievements">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">ACHIEVEMENTS</p>
+          <h2>Academic achievements I'm <span>proud of.</span></h2>
+        </div>
+        <div class="achievement-grid">
+          <article class="achievement-card featured reveal">
+            <div class="achievement-icon">🏆</div>
+            <span>General Knowledge</span>
+            <h3>Competition Winner</h3>
+            <p>Won a general knowledge competition during school.</p>
+          </article>
+          <article class="achievement-card reveal delay-1">
+            <div class="achievement-icon">🔬</div>
+            <span>Junior High School</span>
+            <h3>Science Competition Winner</h3>
+            <p>Won a science (IPA) competition.</p>
+          </article>
+          <article class="achievement-card reveal delay-2">
+            <div class="achievement-icon">📐</div>
+            <span>Junior High School</span>
+            <h3>Mathematics Competition Winner</h3>
+            <p>Won a mathematics competition.</p>
+          </article>
+          <article class="achievement-card reveal">
+            <div class="achievement-icon">🥇</div>
+            <span>Academic Performance</span>
+            <h3>Rank 1 Parallel</h3>
+            <p>Achieved first place in parallel school ranking.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SKILLS</p>
+          <h2>A versatile skill set for the <span>digital era.</span></h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-box reveal">
+            <div class="skill-title"><span>⌨️</span><h3>Programming</h3></div>
+            <div class="skill-list"><span>HTML</span><span>CSS</span><span>Python</span><span>C++</span><span>Pascal</span><span>micro:bit · Basic</span></div>
+          </div>
+          <div class="skill-box reveal delay-1">
+            <div class="skill-title"><span>📊</span><h3>Microsoft Office</h3></div>
+            <div class="skill-list"><span>Excel</span><span>PowerPoint</span><span>Word</span></div>
+          </div>
+          <div class="skill-box reveal delay-2">
+            <div class="skill-title"><span>💼</span><h3>Business &amp; Digital</h3></div>
+            <div class="skill-list"><span>Business Analysis</span><span>Digital Transformation</span><span>Marketing</span><span>Event Organization</span></div>
+          </div>
+          <div class="skill-box reveal">
+            <div class="skill-title"><span>🎤</span><h3>Communication</h3></div>
+            <div class="skill-list"><span>Presentation</span><span>Public Speaking</span><span>Teamwork</span><span>Research</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SELECTED PROJECTS</p>
+          <h2>Things I've explored through <span>academic work.</span></h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card reveal"><div class="project-number">01</div><span>Digital Banking</span><h3>N26 Case Study</h3><p>Explored digital banking, IT implementation, customer experience, and the potential impact of branch closures.</p><a href="#contact">Discuss project →</a></article>
+          <article class="project-card reveal delay-1"><div class="project-number">02</div><span>Digital Transformation</span><h3>Business Transformation Study</h3><p>Studied the Five Domains of Digital Transformation and practical tools for adapting businesses to the digital world.</p><a href="#contact">Discuss project →</a></article>
+          <article class="project-card reveal delay-2"><div class="project-number">03</div><span>Business Analysis</span><h3>Café PESTEL Analysis</h3><p>Analyzed political, economic, social, technological, environmental, and legal factors affecting a café business.</p><a href="#contact">Discuss project →</a></article>
+          <article class="project-card reveal"><div class="project-number">04</div><span>SDG &amp; Research</span><h3>Mental Health in Malang</h3><p>Developed a qualitative research direction around mental health services, accessibility, and stigma in Malang.</p><a href="#contact">Discuss project →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="vision section alt">
+      <div class="container vision-card reveal">
+        <p class="eyebrow">CAREER VISION</p>
+        <h2>Learn globally. <span>Contribute locally.</span></h2>
+        <p>I want to grow through international experience, understand how global companies combine business and technology, and bring those insights back to Indonesia to help create meaningful progress.</p>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Let's build something <span>meaningful.</span></h2>
+          <p>Interested in collaboration, projects, technology, business, or simply exchanging ideas? Feel free to reach out.</p>
+        </div>
+        <div class="contact-card reveal delay-1">
+          <a href="mailto:your.email@example.com" class="contact-row"><span>✉</span><div><small>Email</small><strong>your.email@example.com</strong></div></a>
+          <a href="#" class="contact-row"><span>in</span><div><small>LinkedIn</small><strong>Add your LinkedIn</strong></div></a>
+          <a href="#" class="contact-row"><span>⌘</span><div><small>GitHub</small><strong>Add your GitHub</strong></div></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><p>© <span id="year"></span> Melvern Valentino Chandra. Built with HTML, CSS &amp; JavaScript.</p><a href="#home">Back to top ↑</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
