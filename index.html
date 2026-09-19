@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Website pribadi Kingnolimit — portofolio, keahlian, proyek, dan kontak."
+    />
+    <title>Kingnolimit | Website Pribadi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#home" class="brand" aria-label="Beranda">
+          <span class="brand-mark">K</span>
+          <span>Kingnolimit</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" aria-label="Navigasi utama">
+          <a href="#about">Tentang</a>
+          <a href="#skills">Keahlian</a>
+          <a href="#projects">Proyek</a>
+          <a href="#contact">Kontak</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Halo, saya</p>
+            <h1>Kingnolimit</h1>
+            <p class="lead">
+              Saya adalah pengembang web yang fokus pada pengalaman digital yang
+              cepat, modern, dan mudah digunakan.
+            </p>
+
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#projects">Lihat Proyek</a>
+              <a class="btn btn-secondary" href="#contact">Hubungi Saya</a>
+            </div>
+
+            <ul class="mini-stats" aria-label="Statistik utama">
+              <li>
+                <strong>2+</strong>
+                <span>Tahun belajar</span>
+              </li>
+              <li>
+                <strong>8+</strong>
+                <span>Proyek dibuat</span>
+              </li>
+              <li>
+                <strong>100%</strong>
+                <span>Semangat belajar</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Profil singkat">
+            <div class="avatar-ring">
+              <div class="avatar">K</div>
+            </div>
+            <div class="card-content">
+              <span class="badge">Available for work</span>
+              <h2>Frontend & UI Enthusiast</h2>
+              <p>
+                Membuat antarmuka yang menarik, responsif, dan berfokus pada
+                kebutuhan pengguna.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Tentang saya</p>
+            <h2>Memberi solusi sederhana lewat teknologi</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy">
+              <p>
+                Saya menyukai dunia teknologi, terutama dalam pengembangan web,
+                desain antarmuka, dan optimasi pengalaman pengguna. Saya percaya
+                bahwa website yang baik tidak hanya indah, tetapi juga cepat,
+                jelas, dan mudah dipahami.
+              </p>
+              <p>
+                Saat ini, saya aktif belajar dan membangun proyek yang menggabungkan
+                kreativitas, logika, dan performa agar hasilnya lebih maksimal.
+              </p>
+            </div>
+
+            <div class="info-panel">
+              <div>
+                <span class="label">Lokasi</span>
+                <strong>Indonesia</strong>
+              </div>
+              <div>
+                <span class="label">Status</span>
+                <strong>Mahasiswa / Freelancer</strong>
+              </div>
+              <div>
+                <span class="label">Minat</span>
+                <strong>Web, UI/UX, Produktivitas</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Keahlian</p>
+            <h2>Tools dan teknologi yang saya gunakan</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>Frontend</h3>
+              <div class="tag-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>React</span>
+              </div>
+            </div>
+            <div class="skill-card">
+              <h3>Styling</h3>
+              <div class="tag-list">
+                <span>Tailwind</span>
+                <span>Bootstrap</span>
+                <span>SCSS</span>
+              </div>
+            </div>
+            <div class="skill-card">
+              <h3>Tools</h3>
+              <div class="tag-list">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+                <span>Figma</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Proyek</p>
+            <h2>Beberapa karya yang pernah saya buat</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-visual gradient-one"></div>
+              <div class="project-body">
+                <h3>Landing Page Bisnis</h3>
+                <p>
+                  Desain landing page modern untuk bisnis dengan struktur konten
+                  yang jelas dan fokus call-to-action.
+                </p>
+                <div class="project-meta">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JS</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-visual gradient-two"></div>
+              <div class="project-body">
+                <h3>Portofolio Pribadi</h3>
+                <p>
+                  Website portofolio yang menampilkan profil, keahlian, dan proyek
+                  dengan tampilan yang profesional.
+                </p>
+                <div class="project-meta">
+                  <span>React</span>
+                  <span>CSS</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-visual gradient-three"></div>
+              <div class="project-body">
+                <h3>Dashboard Sederhana</h3>
+                <p>
+                  Antarmuka dashboard ringan untuk menampilkan data penting dengan
+                  tata letak yang rapi dan responsif.
+                </p>
+                <div class="project-meta">
+                  <span>JavaScript</span>
+                  <span>API</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta-section">
+        <div class="container cta-box">
+          <div>
+            <p class="eyebrow">Kontak</p>
+            <h2>Ayo mulai kolaborasi</h2>
+          </div>
+          <a class="btn btn-primary" href="mailto:your.email@example.com">
+            Email Saya
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Kingnolimit. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
